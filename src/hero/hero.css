@@ -1,0 +1,87 @@
+.hero{
+  width: 100%;
+  background-image: url(../images/saroy.png);
+  background-position: calc(50% + 211px) calc(50% - -24px);
+  background-size: 1052px 742px;
+  background-repeat: no-repeat;
+}
+
+.hero-span {
+  display: inline-block;
+  margin-top: 58px;
+  margin-bottom: 48px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+.hero-span::before {
+  content: "";
+  position: relative;
+  top: -6px;
+  left: -20px;
+  width: 35.44px;
+  height: 1px;
+  margin-left: 30px;
+  margin-top: 25px;
+  display: inline-block;
+  background-color: green;
+}
+.hero-wrap {
+  max-width: 770px;
+}
+.hero-title {
+  margin-bottom: 84px;
+  font-size: 54px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+.hero-text {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 300;
+}
+.hero-text {
+  margin-left: 45px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+.hero-text::after {
+  position: relative;
+  top: -56px;
+  left: -33px;
+  display: block;
+  background-image: url(../images//decoration.svg);
+  width: 50px;
+  height: 91px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.hero-textbigwrap {
+  display: flex;
+  align-items: center;
+}
+.hero-texwrapone {
+  max-width: 198px;
+
+}
+.hero-textwrapfirs {
+  max-width: 295px;
+  margin-left: 55px;
+}
+.hero-button {
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+.hero-endspan {
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 300;
+}
