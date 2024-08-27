@@ -168,7 +168,7 @@
 }
 @media (max-width: 450px) {
   .hero-title {
-    font-size: 32px!important;
+    font-size: 22px!important;
     align-items: center;
   }
   .hero-texttwo {
