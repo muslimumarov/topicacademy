@@ -76,18 +76,30 @@
   font-weight: 500;
 }
 @media (max-width: 1024px)  {
+  .hero-title {
+    font-size: 42px!important;
+  }
   .hero-textbigwrap {
     display: flex;
     flex-wrap: wrap;
   }
+  .hero-textone {
+    position: relative;
+    top: 80px;
+  }
   .hero-textwrapfirs {
     margin-top: 190px;
     position: relative;
-    top: 155px;
+    top: 225px;
     right: 255px;
   }
   .hero-button {
     margin-top: 100px;
+    top: 100px;
+  }
+  .hero-endspan {
+    position: relative;
+    top: 120px;
   }
 }
 @media (max-width: 650px)  {
@@ -106,23 +118,23 @@
   }
   .hero-texttwo {
     position: relative;
-    top: 140px;
-    left: 220px;
+    top: 40px;
+    left: 20px;
   }
 
   .hero-button {
     position: relative;
-    top: 134px;
+    top: 184px;
     left: 20px;
   }
   .hero-endspan {
     text-align: center;
     position: relative;
-    top: 156px;
+    top: 200px;
     left: 20px;
   }
 }
-@media (max-width: 550px)  {
+@media (max-width: 588px)  {
   .hero-title {
     font-size: 32px;
   }
@@ -134,7 +146,7 @@
   }
   .hero-textone {
     position: relative;
-    bottom: 20px;
+    top: 33px;
   }
   .hero-texttwo {
     position: relative;
@@ -155,6 +167,10 @@
   }
 }
 @media (max-width: 450px) {
+  .hero-title {
+    font-size: 32px!important;
+    align-items: center;
+  }
   .hero-texttwo {
     position: relative;
     bottom: 4px;
@@ -173,10 +189,14 @@
   }
 }
 @media (max-width: 394px)  {
+  .hero-span {
+    text-align: center;
+  }
   .hero-title {
     text-align: center;
-    margin-left: 15px;
-    font-size: 22px;
+    margin-left: 18px;
+    font-size: 22px !important;
+    font-weight: 400  ;
   }
   .hero-textone {
     width: 100%;
@@ -196,7 +216,7 @@
 
   .hero-endspan {
     position: absolute;
-    top: 1362px;
+    top: 1300px;
     right: 55px;
     display: flex;
     font-size: 24px;
