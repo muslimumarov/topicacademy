@@ -1,7 +1,6 @@
 .hero{
-  width: 100%;
   background-image: url(../images/saroy.png);
-  background-position: calc(50% + 211px) calc(50% - -24px);
+  background-position: calc(50% + 211px) calc(50% - -29px);
   background-size: 1052px 742px;
   background-repeat: no-repeat;
 }
@@ -37,18 +36,11 @@
   font-weight: 400;
 }
 .hero-text {
-  color: #333333;
-  font-size: 18px;
-  line-height: 1.35;
-  font-weight: 300;
-}
-.hero-text {
   margin-left: 45px;
   color: #333333;
   font-size: 18px;
   line-height: 24px;
   font-weight: 300;
-  margin-bottom: 72px;
 }
 .hero-text::after {
   position: relative;
@@ -75,13 +67,138 @@
 }
 .hero-button {
   color: #333333;
-  font-size: 16px;
-  line-height: 1.35;
-  font-weight: 400;
+  font-weight: 300;
 }
 .hero-endspan {
   color: #333333;
   font-size: 16px;
   line-height: 1.35;
-  font-weight: 300;
+  font-weight: 500;
+}
+@media (max-width: 1024px)  {
+  .hero-textbigwrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-textwrapfirs {
+    margin-top: 190px;
+    position: relative;
+    top: 155px;
+    right: 255px;
+  }
+  .hero-button {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 650px)  {
+  .hero-title {
+    font-size: 32px;
+  }
+  .hero-span {
+    margin-left: 29px;
+  }
+  .hero-span::before {
+    display: none;
+  }
+  .hero-textone {
+    position: relative;
+    bottom: 20px;
+  }
+  .hero-texttwo {
+    position: relative;
+    top: 140px;
+    left: 220px;
+  }
+
+  .hero-button {
+    position: relative;
+    top: 134px;
+    left: 20px;
+  }
+  .hero-endspan {
+    text-align: center;
+    position: relative;
+    top: 156px;
+    left: 20px;
+  }
+}
+@media (max-width: 550px)  {
+  .hero-title {
+    font-size: 32px;
+  }
+  .hero-span {
+    margin-left: 29px;
+  }
+  .hero-span::before {
+    display: none;
+  }
+  .hero-textone {
+    position: relative;
+    bottom: 20px;
+  }
+  .hero-texttwo {
+    position: relative;
+    bottom: 40px;
+    left: 200px;
+  }
+
+  .hero-button {
+    position: relative;
+    top: 135px;
+    left: 20px;
+  }
+  .hero-endspan {
+    text-align: center;
+    position: relative;
+    top: 155px;
+    left: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .hero-texttwo {
+    position: relative;
+    bottom: 4px;
+    left: 200px;
+  }
+  .hero-button {
+    position: relative;
+    top: 135px;
+    left: 20px;
+  }
+  .hero-endspan {
+    text-align: center;
+    position: relative;
+    top: 155px;
+    left: 20px;
+  }
+}
+@media (max-width: 394px)  {
+  .hero-title {
+    text-align: center;
+    margin-left: 15px;
+    font-size: 22px;
+  }
+  .hero-textone {
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+
+  }
+  .hero-texttwo {
+    position: relative;
+    top: 52px;
+    left: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .hero-endspan {
+    position: absolute;
+    top: 1362px;
+    right: 55px;
+    display: flex;
+    font-size: 24px;
+  }
 }

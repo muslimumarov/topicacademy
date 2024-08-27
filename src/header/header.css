@@ -59,7 +59,7 @@
 /*Responsive */
 @media (max-width: 1535px) {
     .container {
-        max-width: 120px;
+        max-width: 1200px;
     }
     .header-wrapper {
         display: flex;
@@ -93,7 +93,7 @@
     .translate {
         position: absolute;
         top: 30.5px;
-        right: 30px;
+        right: 450px;
     }
     .translate-select {
         width: 49px;
@@ -131,9 +131,9 @@
     }
 
     .translate {
-        position: absolute;
-        top: 30.5px;
-        right: 30px;
+        position: relative;
+        top: 3px;
+        left: 380px;
     }
     .translate-select {
         width: 49px;
@@ -169,8 +169,8 @@
 
     .translate {
         position: absolute;
-        top: 30.5px;
-        right: 30px;
+        top:  80px;
+        left: 1000px;
     }
     .translate-select {
         width: 49px;
@@ -180,7 +180,12 @@
 @media (max-width: 1200px) {
     .header-wrapper {
         display: flex;
-    }
+
+        .translate {
+            position: absolute;
+            top: 30.5px;
+            right: 135px;
+        }    }
     .header-span {
         margin-right: 45px;
         font-weight: 400;
@@ -196,25 +201,53 @@
         margin-right: 9px;
     }
     .navbar-responsiv {
-       display: none;
+        position: absolute;
+        top: 21.5px;
+        left: 824px;
+        display: inline-block;
     }
     .header-contact{
         position: absolute;
         top: 15px;
         right: 40px;
     }
-
-    .translate {
-        position: absolute;
-        top: 30.5px;
-        right: 30px;
+    .navbar {
+        position: relative;
+        top: 2px;
+        right: 60px;
     }
+
     .translate-icon {
+        display: none;
+    }
+    .header-contact {
         display: none;
     }
     .translate-select {
         width: 49px;
         height: 29px;
+    }
+}
+@media (max-width: 1117px) {
+.translate {
+    position: absolute;
+    left: 980px;
+}
+}
+@media (max-width: 1100px) {
+    .navbar-responsiv {
+        position: absolute;
+        top: 21.5px;
+        left: 785px;
+        display: inline-block;
+    }
+    .navbar {
+        position: relative;
+        top: 2px;
+        right: 60px;
+    }
+    .translate {
+        left: 944px;
     }
 }
 @media (max-width: 1024px) {
@@ -243,14 +276,13 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 750px;
+        left: 600px;
         display: inline-block;
-
     }
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 530px;
+        left: 470px;
     }
     .translate-select {
         width: 49px;
@@ -283,14 +315,14 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 650px;
+        left: 540px;
         display: inline-block;
 
     }
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 500px;
+        left: 400px;
     }
     .translate-select {
         width: 49px;
@@ -342,13 +374,13 @@
     .navbar-responsiv {
           position: absolute;
           top: 21.5px;
-          left: 355px;
+          left: 385px;
           display: inline-block;
       }
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 518px;
+        left: 310px;
     }
 
 }
@@ -358,7 +390,7 @@
     }
     .header-img-logo  {
         margin-top: 20px;
-        margin-right: 45px;
+        margin-right: 5px;
         width: 59px;
         height: 39px;
         z-index: 5;
@@ -369,14 +401,14 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 280px;
+        left: 380px;
         display: inline-block;
     }
 
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 435px;
+        left: 310px;
     }
     .translate-select {
         width: 49px;
@@ -405,14 +437,14 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 225px;
+        left: 325px;
         display: inline-block;
 
     }
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 380px;
+        left: 240px;
     }
     .translate-select {
         width: 49px;
@@ -425,7 +457,6 @@
     }
     .header-img-logo  {
         margin-top: 20px;
-        margin-right: 45px;
         width: 59px;
         height: 39px;
         z-index: 5;
@@ -435,25 +466,23 @@
     }
     .navbar-responsiv {
         position: absolute;
-        top: 21.5px;
-        left: 205px;
+        top: 27px;
+        left: 305px;
         display: inline-block;
-    }
-    .header-span {
-        text-align: center ;
-        width: 300px;
-        position: absolute;
-        top: 78px;
-        left: 70px;
     }
     .translate {
         position: absolute;
-        top: 30.5px;
-        left: 365px;
+        top: 678px;
+        left: 255px;
     }
     .translate-select {
         width: 49px;
         height: 29px;
+    }
+    .header-span {
+        position: absolute;
+        top: 30px;
+        left:100px;
     }
 }
 @media (max-width: 409px) {
@@ -462,10 +491,9 @@
         /*align-items: center;*/
     }
     .header-span {
-        width: 300px;
         position: absolute;
-        top: 78px;
-        left: 40px;
+        top: 28px;
+        left: 80px;
         }
 
     .header-img-logo  {
@@ -481,26 +509,29 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 128px;
+        left: 204px;
         display: inline-block;
-
     }
     .translate {
         position: absolute;
-        top: 30.5px;
-        left: 290px;
+        bottom: 459px;
+        left: 340px;
     }
     .translate-select {
         width: 49px;
         height: 29px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 394px) {
     .header-wrapper {
         display: inline-block;
-        /*align-items: center;*/
     }
-
+    .header-span {
+        text-align: center;
+        width: 300px;
+        top: 75px;
+        left: 49px;
+    }
     .header-img-logo  {
         margin-top: 20px;
         margin-right: 45px;
@@ -514,14 +545,14 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 178px;
+        left: 140px;
         display: inline-block;
 
     }
     .translate {
         position: absolute;
-        top: 30.5px;
-        left: 329px;
+        bottom: 669px;
+        left: 299px;
     }
     .translate-select {
         width: 49px;
