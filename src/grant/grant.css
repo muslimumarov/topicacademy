@@ -48,3 +48,20 @@
     border-radius: 100%;
 }
 
+ /*Responsive*/
+
+@media  (max-width: 1024px) {
+    .grant-wrap {
+    flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .grant-img {
+        margin-bottom: 64px;
+    }
+    .grant-title, .grant-innertitle {
+        margin-left: 45px;
+        text-align: center;
+    }
+
+}
