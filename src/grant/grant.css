@@ -1,0 +1,50 @@
+.grant {
+
+}
+.grant-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.grant-img {
+    max-width: 602px;
+    height: 500px;
+    margin-right: 46px;
+}
+.grant-activ-title {
+    max-width: 795px;
+    margin: 0 auto;
+    margin-bottom: 108px;
+}
+.grant-title, .grant-innertitle {
+    font-size: 22px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+.grant-list {
+    margin-left: 18px;
+
+}
+.grant-text, .grant-item{
+    font-size: 14px;
+    line-height: 1.55;
+}
+.gran-text {
+    margin-bottom: 701px !important;
+}
+.grant-item {
+    max-width: 594px;
+    position: relative;
+}
+.grant-item:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: -16px;
+    width: 7px;
+    width:7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 100%;
+}
+

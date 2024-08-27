@@ -11,7 +11,7 @@ function Translate ()  {
          i18n.changeLanguage(selLanguage)
      }
   return (
-      <div className="translate  flex items-center gap-2">
+      <div className="translate  z-50 flex   items-center gap-2">
           <TbWorld className='translate-icon' />
           <select className='translate-select pl-2' name="lng" id="ln" onChange={handlechange} value={languages}>
               <option disabled>Tilni tanlag</option>

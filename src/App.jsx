@@ -3,15 +3,20 @@ import './App.css';
 import Header from "./header/Header";
 import Hero from './hero/Hero';
 import ForYou from "./for-you/For-you";
+import Result from "./result/Result";
+import Grant from "./grant/Grant";
 function App() {
 
     return (
-        <div className="container">
-            <div className="App ">
+        <div className="App-container">
+            <div className="container ">
                 <Header/>
-                <Hero className="hero-warap"/>
+                <Hero/>
                 <ForYou/>
+                <Result/>
+                <Grant/>
             </div>
+
         </div>
     );
 }

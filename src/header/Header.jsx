@@ -11,7 +11,7 @@ function Header() {
     <div className="header">
         <div className="header-wrapper">
             <a href="#">
-                <img className='header-img-logo' src={Logo} alt="topic logo"/>
+                <img className='header-img-logo rounded-md'   src={Logo} alt="topic logo"/>
             </a>
             <div className="header-innerWrapper flex mt-3 items-center ">
                 <span  className="header-span">{t("logo-text")}</span>

@@ -23,7 +23,6 @@
     margin-left: 35px;
     padding-left: 0;
     display: flex;
-    list-style: none;
 }
 .nav-item {
     font-size: 16px;
@@ -55,6 +54,10 @@
 }
 .navbar-responsiv {
     display: none;
+}
+.translate {
+    position: fixed;
+    right: 194px;
 }
 /*Responsive */
 @media (max-width: 1535px) {
@@ -420,9 +423,7 @@
         display: inline-block;
     }
     .header-span {
-        position: absolute;
-        top: 28px;
-        left: 89px;
+       display: none;
     }
     .header-img-logo  {
         margin-top: 20px;
@@ -437,14 +438,14 @@
     .navbar-responsiv {
         position: absolute;
         top: 21.5px;
-        left: 325px;
+        left: 220px;
         display: inline-block;
 
     }
     .translate {
         position: absolute;
         top: 30.5px;
-        left: 240px;
+        left: 380px;
     }
     .translate-select {
         width: 49px;
@@ -467,22 +468,20 @@
     .navbar-responsiv {
         position: absolute;
         top: 27px;
-        left: 305px;
+        left: 182px;
         display: inline-block;
     }
     .translate {
         position: absolute;
-        top: 678px;
-        left: 255px;
+        top: 3px;
+        left: 342px;
     }
     .translate-select {
         width: 49px;
         height: 29px;
     }
     .header-span {
-        position: absolute;
-        top: 30px;
-        left:100px;
+       display: none;
     }
 }
 @media (max-width: 409px) {
@@ -514,7 +513,7 @@
     }
     .translate {
         position: absolute;
-        bottom: 459px;
+        top: 459px;
         left: 340px;
     }
     .translate-select {
@@ -539,7 +538,7 @@
         height: 39px;
         z-index: 5;
     }
- .navbar, .header-contact, .contact-span,  .translate-icon {
+ .navbar, .header-contact, .contact-span, .header-span  .translate-icon {
         display: none;
     }
     .navbar-responsiv {
@@ -551,7 +550,7 @@
     }
     .translate {
         position: absolute;
-        bottom: 669px;
+        top: 120px;
         left: 299px;
     }
     .translate-select {
