@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./header/Header";
 import Hero from './hero/Hero';
+import ForYou from "./for-you/For-you";
 function App() {
 
     return (
@@ -9,6 +10,7 @@ function App() {
             <div className="App ">
                 <Header/>
                 <Hero className="hero-warap"/>
+                <ForYou/>
             </div>
         </div>
     );

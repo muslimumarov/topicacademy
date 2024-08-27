@@ -3,6 +3,7 @@
   background-position: calc(50% + 211px) calc(50% - -29px);
   background-size: 1052px 742px;
   background-repeat: no-repeat;
+  margin-bottom: 132px;
 }
 
 .hero-span {
@@ -101,6 +102,9 @@
     position: relative;
     top: 120px;
   }
+  .ant-flex {
+    /*margin: 0;*/
+  }
 }
 @media (max-width: 650px)  {
   .hero-title {
@@ -124,13 +128,13 @@
 
   .hero-button {
     position: relative;
-    top: 184px;
+    top: 134px;
     left: 20px;
   }
   .hero-endspan {
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 20px;
   }
 }
