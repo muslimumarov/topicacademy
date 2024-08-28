@@ -30,9 +30,9 @@ function Grant() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <div className="grant-alert  lg:h-[100px] p-5 bg-custom-gray text-center text-white rounded-[5px] text-[32px] mx-auto
+        <div className="grant-alert  lg:h-[120px] p-5 bg-custom-gray text-center text-white rounded-[5px] text-[32px] mx-auto
            w-full sm:w-[630px] lg:w-[995px]    grant-alert  bg-custom-gray    aligin-center  bg-black ">
-            GKS granti haqida to’liq siz uchun tayyorlagan video suhbatimizda bilib oling! ...
+            {t("vedeoDedsc")}
         </div>
     </div>)
 }
