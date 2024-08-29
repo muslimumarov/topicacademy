@@ -29,7 +29,6 @@ function Result() {
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     {Array(20).fill().map((_, index) => (
                         <img
-
                             key={index}
                             src={MarqueFoto}
                             className="marquee-image ml-3 "

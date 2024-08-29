@@ -77,8 +77,14 @@
   font-weight: 500;
 }
 @media (max-width: 1024px)  {
+  .hero {
+    background-position: calc(50% + 63px) calc(50% - -14px);
+    background-size: 1070px 810px;
+  }
   .hero-title {
-    font-size: 42px!important;
+    font-size: 37px !important;
+    max-width: 400px;
+    margin-left: 20px;
   }
   .hero-textbigwrap {
     display: flex;
@@ -106,9 +112,18 @@
     /*margin: 0;*/
   }
 }
+@media (max-width: 740px)  {
+  .hero {
+    background-position: calc(50% + 111px) calc(44% - -33px);
+  }
+}
 @media (max-width: 650px)  {
+  .hero {
+    background-position: calc(50% + 93px) calc(44% - -50px);
+  }
+
   .hero-title {
-    font-size: 32px;
+    font-size: 20px;
   }
   .hero-span {
     margin-left: 29px;

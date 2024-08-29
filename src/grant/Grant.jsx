@@ -12,26 +12,29 @@ function Grant() {
             <img src={Grantfoto} alt="grant section foto" className="grant-img mx-auto
                 w-full sm:w-[786px] lg:w-[1200px]"/>
             <div className="grant-innerWrap mb-32">
-                <h3 className="grant-title text-[22px] mb-5">{t("granttitle")}</h3>
-                <p className="grant-text  text-[18px] mb-8 w-[450px]">{t("granttext")}</p>
-                <h3 className="grant-innertitle text-[24px] mb-8">{t("innertitle")}</h3>
-                <ul className="grant-list">
-                    <li className="grant-item  text-[18px] w-[450px]">{t("grantdescone")}</li>
-                    <li className="grant-item  text-[18px] w-[450px]">{t("grantdesctwo")}</li>
-                    <li className="grant-item  text-[18px] w-[470px]">{t("grantdescthree")}</li>
-                </ul>
+                <div className="grant-activ-topwrap">
+                    <h3 className="grant-title text-[22px] mb-5">{t("granttitle")}</h3>
+                    <p className="grant-text  text-[18px] mb-8 w-[450px]">{t("granttext")}</p>
+                </div>
+                <div className="grant-activ-endwrap">
+                    <h3 className="grant-innertitle text-[24px] mb-8">{t("innertitle")}</h3>
+                    <ul className="grant-list">
+                        <li className="grant-item  text-[18px] w-[450px]">{t("grantdescone")}</li>
+                        <li className="grant-item  text-[18px] w-[450px]">{t("grantdesctwo")}</li>
+                        <li className="grant-item  text-[18px] w-[470px]">{t("grantdescthree")}</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div className="grant-video">
-            <iframe className=" h-[550px] grant-alert p-3 bg-custom-gray text-center text-white rounded-[5px] text-[32px] mx-auto
-                        w-full   sm:w-[650px] lg:w-[995px] "
+            <iframe className=" h-[550px]  p-3 rounded-[20px] text-[32px] mx-auto
+                        w-full   sm:w-[650px, mr-[30]] md:w-[768px, mr-[30]] lg:w-[995px, mr-[30]] xl:w-[1170px, mr-[30]] "
                     src="https://www.youtube.com/embed/nKyvYnzIDgI?si=6JJeSV5HDG63VvKr"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    referrerPolicy="strict-origin-when-cross-origin" ></iframe>
         </div>
-        <div className="grant-alert  lg:h-[120px] p-5 bg-custom-gray text-center text-white rounded-[5px] text-[32px] mx-auto
-           w-full sm:w-[630px] lg:w-[995px]    grant-alert  bg-custom-gray    aligin-center  bg-black ">
+        <div className="grant-alert  p-5 bg-custom-gray text-center text-white rounded-[5px] text-[26px] bg-custom-gray    aligin-center  bg-black ">
             {t("vedeoDedsc")}
         </div>
     </div>)

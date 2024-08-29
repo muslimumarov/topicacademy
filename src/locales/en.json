@@ -30,8 +30,21 @@
   "grantdescone": "At the beginning and end of the program, travel expenses to Korea and back are covered",
   "grantdesctwo": "A one-time payment for accommodation is provided upon arrival in Korea. The amount is 200,000 KRW (approximately 157 USD)",
   "grantdescthree": "Language courses and university tuition fees are fully covered (only for master's and doctoral students)... more information",
-  "vedeoDedsc": "Learn all about the GKS grant in our video interview prepared just for you! ..."
-
-
-
+  "vedeoDedsc": "Learn all about the GKS grant in our video interview prepared just for you! ...",
+  "succes-title":  "We assist our successful graduates in choosing a university and winning grants",
+  "succes-text": "The TOPIK academy consulting team will assist you closely in choosing a university, obtaining a visa, and winning grants",
+  "succes-desc":  "Sign up for a free consultation to get more information!",
+  "succes-button": "Submit an application",
+  "kurs-title": "Sign up for a course that suits you",
+  "kurs1-span":"Intiensive",
+  "kurs1-button": "Duration: 5 months",
+  "kurs1-desc":"An intensive course for those who want to deeply master the Korean language, 6 days a week for 1.5 hours",
+  "kurs1-endbutton": "SIGN UP",
+  "kurs1-endspan":"970,000 soum / month",
+  "kurs2-span": "Standard",
+  "kurs2-desc" :  "Standard Korean language classes consisting of 1.5 hours, 3 days a week",
+  "kurs2-endspan" :  "560,000 soum / month",
+  "kurs3-span": "Individual",
+  "kurs3-desc":  "For those who want to take individual lessons from a teacher, classes of 1.5 hours, 3 days a week. Flexible schedule and personalized approach",
+  "kurs3-endspan":  "1,800,000 soum / month"
 }

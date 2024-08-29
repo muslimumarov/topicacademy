@@ -1,0 +1,111 @@
+.succes {
+    margin-bottom: 100px;
+}
+
+.succes-wrap {
+    display: flex;
+    align-items: start;
+}
+
+.succes-text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.succes-desc {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.succes-button {
+    display: block;
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 1.55px;
+    font-weight: 400;
+}
+.succes-innershadow {
+    position: relative;
+    width: 530px;
+    height: 426px;
+    -webkit-box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);
+    -moz-box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);
+    box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);
+    z-index: 55;
+}
+.succes-innerwrap {
+    width: 660px;
+    height: 300px;
+}
+@media (max-width: 1280px) {
+    .succes-wrap {
+        /*flex-wrap: wrap;*/
+        justify-content: center;
+        max-width: 990px;
+    }
+
+    /*.succes-title-activ {*/
+    /*    max-width: 980px;*/
+    /*}*/
+
+    .succes-innerwrap {
+        margin-left: 50px;
+        max-width: 500px;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1024px) {
+
+    .succes-innerwrap {
+        max-width: 330px;
+    }
+}
+@media (max-width: 960px) {
+    .succes-innershadow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .succes-text {
+        text-align: center;
+    }
+    .succes-innerwrap {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .succes-title-activ {
+        max-width: 600px;
+    }
+
+    .succes-wrap {
+        max-width: 650px;
+        /*height: 400px;*/
+    }
+}
+@media (max-width: 640px) {
+    .succes-wrap {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    .succes-title-activ {
+        max-width: 400px;
+        /*text-align: center;*/
+        font-size: 30px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+}
+@media (max-width: 440px) {
+    .succes-wrap {
+        max-width: 400px;
+    }
+
+    .succes-title-activ {
+        max-width: 200px;
+    }
+}
+

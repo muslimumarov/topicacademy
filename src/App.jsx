@@ -5,6 +5,8 @@ import Hero from './hero/Hero';
 import ForYou from "./for-you/For-you";
 import Result from "./result/Result";
 import Grant from "./grant/Grant";
+import Succes from "./Succes/Succes";
+import Kurs from "./kurs/Kurs";
 function App() {
 
     return (
@@ -15,6 +17,8 @@ function App() {
                 <ForYou/>
                 <Result/>
                 <Grant/>
+                <Succes/>
+                {/*<Kurs/>*/}
             </div>
 
         </div>

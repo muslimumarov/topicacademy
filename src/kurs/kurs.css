@@ -1,0 +1,13 @@
+.kurs-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.kurs-item {
+    width: 380px;
+    height: 550px;
+}
+.kurs-item:not(last-child) {
+    margin-left: 22px;
+}
