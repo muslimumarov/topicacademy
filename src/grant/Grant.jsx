@@ -19,9 +19,9 @@ function Grant() {
                 <div className="grant-activ-endwrap">
                     <h3 className="grant-innertitle text-[24px] mb-8">{t("innertitle")}</h3>
                     <ul className="grant-list">
-                        <li className="grant-item  text-[18px] w-[450px]">{t("grantdescone")}</li>
-                        <li className="grant-item  text-[18px] w-[450px]">{t("grantdesctwo")}</li>
-                        <li className="grant-item  text-[18px] w-[470px]">{t("grantdescthree")}</li>
+                        {/*<li className="grant-item  text-[18px] w-[450px]">{t("grantdescone")}</li>*/}
+                        {/*<li className="grant-item  text-[18px] w-[450px]">{t("grantdesctwo")}</li>*/}
+                        {/*<li className="grant-item  text-[18px] w-[470px]">{t("grantdescthree")}</li>*/}
                     </ul>
                 </div>
             </div>
