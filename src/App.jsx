@@ -16,7 +16,7 @@ function App() {
                 <Hero/>
                 <ForYou/>
                 <Result/>
-                <Grant/>
+                {/*<Grant/>*/}
                 <Succes/>
                 {/*<Kurs/>*/}
             </div>

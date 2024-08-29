@@ -13,7 +13,7 @@ function Succes() {
         </div>
         <div className="succes-wrap">
             <div className="succes-innershadow">
-                <div className="succes-text w-[370px] mb-[70px]">{t("succes-text")}</div>
+                <div className="succes-text  mb-[70px]">{t("succes-text")}</div>
                 <div className="succes-desc text-[18px] w-[285px] mb-[20px]">{t("succes-desc")}</div>
                 <Button
                     className="succes-button w-[300px] bg-emerald-500  text-white rounded-[50px] p-9">{t("succes-button")}
