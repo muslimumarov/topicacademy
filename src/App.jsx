@@ -7,6 +7,7 @@ import Result from "./result/Result";
 import Grant from "./grant/Grant";
 import Succes from "./Succes/Succes";
 import Kurs from "./kurs/Kurs";
+import TopicAcademy from "./topic_academy/Topic-academy";
 function App() {
 
     return (
@@ -16,9 +17,10 @@ function App() {
                 <Hero/>
                 <ForYou/>
                 <Result/>
-                {/*<Grant/>*/}
+                <Grant/>
                 <Succes/>
-                {/*<Kurs/>*/}
+                <Kurs/>
+                <TopicAcademy/>
             </div>
 
         </div>

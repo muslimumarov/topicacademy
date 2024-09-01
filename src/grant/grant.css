@@ -61,19 +61,10 @@
         max-width: 1000px;
     }
 
-    .grant-wrap {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+
 
     .grant-innerWrap {
-        position: relative;
-        top: 8px;
-        left: 68px;
-        margin-top: 70px;
-        display: flex;
-        justify-content: space-between;
+       max-width: 857px;
     }
   .grant-text {
       max-width: 450px;
@@ -83,8 +74,8 @@
     }
 
     .grant-img {
-        max-width: 602px;
-        height: 500px;
+        max-width: 402px;
+        height: 300px;
         margin-right: 46px;
     }
 }
@@ -170,12 +161,9 @@
         align-items: center;
         flex-direction: column;
     }
-    .grant-img {
-        max-width: 300px;
-        height: 250px;
-    }
+
     .grant-activ-endwrap {
-        margin-right: 111px;
+        margin-left: 15px;
     }
     .grant-item:before {
        display: none;

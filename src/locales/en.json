@@ -1,6 +1,4 @@
 {
-  "olma": "Apple",
-  "anor": "Pomegranate",
   "logo-text": "Korean Language and TOPIK Study Center located in Tashkent",
   "Nega biz":  "Why Us",
   "Natijalar": "Results",
@@ -46,5 +44,23 @@
   "kurs2-endspan" :  "560,000 soum / month",
   "kurs3-span": "Individual",
   "kurs3-desc":  "For those who want to take individual lessons from a teacher, classes of 1.5 hours, 3 days a week. Flexible schedule and personalized approach",
-  "kurs3-endspan":  "1,800,000 soum / month"
+  "kurs3-endspan":  "1,800,000 soum / month",
+  "title1": "Professional Instructors",
+  "description1": "Experienced teachers with over 4 years of experience and TOPIK Level 6 will teach you.",
+
+  "title2": "Free Coworking Spaces",
+  "description2": "We have free coworking spaces for convenient study, networking, and working on your own.",
+
+  "title3": "Weekly Events",
+  "description3": "The TOPIK academy team regularly organizes additional events for students.",
+
+  "title4": "Free Trial Exams",
+  "description4": "Participate in trial exams held during the course to track your progress and level.",
+
+  "title5": "Supporting Curators",
+  "description5": "If you have difficulties with the course material, a curator will be available to assist you.",
+
+  "title6": "Consulting Services",
+  "description6": "We assist our successful graduates with visa applications for studying in South Korea, university selection, and obtaining grants."
 }
+

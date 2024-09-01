@@ -1,6 +1,7 @@
 .foryou {
     margin-bottom: 93px;
 }
+
 .foryou-title {
     text-align: center;
     margin-bottom: 83px;
@@ -8,11 +9,13 @@
     line-height: 1.55;
     font-weight: 500;
 }
+
 .foryou-list {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 69px;
 }
+
 .foryou-list-item {
     display: flex;
     margin-top: 50px;
@@ -26,13 +29,91 @@
     margin-left: 110px;
 
 }
+
 .foryou-desc {
     text-align: center;
     margin-top: 29px;
 }
+
 .foryou-button {
     display: flex;
     margin: 0 auto;
+}
+
+.foryou-form-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.foryou-form-span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.ant-modal-title {
+    font-size: 0.01px !important;
+    display: flow;
+}
+
+.foryou-form-title {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.foryou-form-span {
+    display: flex;
+    max-width: 340px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.foryou-form-button {
+    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* styles.css */
+.ant-input-status-success {
+    max-width: 500px !important;
+}
+.ant-input {
+    display: block !important;
+}
+.ant-form-item-explain {
+    font-size: 14.5px !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    font-size: 17px;
+}
+.ant-modal-close-x, .ant-btn-default, .css-dev-only-do-not-override, .css-dev-only-do-not-override-11le {
+    display: none !important;
+}
+
+.country-list {
+    max-width: 240px !important;
+    height: 250px !important;
+}
+
+
+.foryou-form-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name {
+    max-width: 305px !important;
+    padding-right: 125px !important;
 }
 
 /* Responsive */
@@ -42,28 +123,188 @@
         justify-content: center;
         margin: 0;
     }
+
     .foryou-button {
         margin-top: 73px;
     }
 }
+
 @media (max-width: 1280px) {
     .foryou {
         margin-top: 20px;
+    }
+
+    .ant-form-item-explain {
+        font-size: 14.5px !important;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 17px;
     }
     .foryou-list-item {
         margin-left: 30px;
     }
 }
+
 @media (max-width: 650px) {
     .foryou-title {
         margin-top: 243px;
     }
+
+    .ant-form-item-explain {
+        font-size: 14.5px !important;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 17px;
+    }
+    .phone-input {
+        margin-left: 95px !important;
+    }
+
     .foryou-list-item:not(:last-child) {
         margin-bottom: 5px;
     }
 }
-@media (max-width: 650px) {
-    .foryou {
-        margin-top: 300px;
+
+@media (max-width: 640px) {
+    .phone-input {
+        margin-left: 95px !important;
+    }
+}
+
+@media (max-width: 630px) {
+    .phone-input {
+        margin-left: 88px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 16.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 620px) {
+    .phone-input {
+        margin-left: 85px !important;
+    }
+}
+
+@media (max-width: 610px) {
+    .phone-input {
+        margin-left: 78px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .phone-input {
+        margin-left: 70px !important;
+    }
+
+    .ant-form-item-explain {
+        margin-left: 105px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 500px) {
+    .foryou-form-title {
+        font-size: 26px;
+    }
+    .ant-form-item-explain {
+        font-size: 16.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .foryou-form-title {
+        font-size: 22px;
+    }
+    .form-control {
+        width: 280px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 15.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .ant-form-item-explain {
+        font-size: 14.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }}
+
+@media (max-width: 431px) {
+    .ant-form-item-explain {
+        font-size: 13.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }}
+
+@media (max-width: 420px) {
+    .form-control {
+        width: 258px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 13.5px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-control {
+        width: 250px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 12px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 390px) {
+    .form-control {
+        width: 250px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 12px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .ant-form-item-explain {
+        font-size: 12px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .form-control {
+        width: 225px !important;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .ant-form-item-explain {
+        font-size: 11px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .form-control {
+        width: 215px !important;
+    }
+}
+@media (max-width: 360px) {
+    .form-control {
+        width: 200px !important;
     }
 }

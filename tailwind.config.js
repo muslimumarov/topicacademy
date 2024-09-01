@@ -4,6 +4,17 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend: {
+      borderRadius: {
+        'radiuspx': '50px',
+      },
+      boxShadow: {
+        'custom-light': '0px 19px 19px 5px rgba(179, 209, 231, 0.2)',
+      },
+      screens: {
+        'mobile': '390px',  // 400px ekran o'lchami
+      },
+    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',

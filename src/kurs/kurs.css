@@ -1,13 +1,33 @@
-.kurs-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.css-dev-only-do-not-override-11leh, .ant-modal, .ant-modal-content {
+    position: relative !important;
+    background-color: unset !important;
+    backdrop-filter: blur(10px) !important;
+}
 
+.form-control {
+    display: block !important;
 }
-.kurs-item {
-    width: 380px;
-    height: 550px;
+.react-tel-input {
+    margin-top: 15px !important;
 }
-.kurs-item:not(last-child) {
-    margin-left: 22px;
+
+.selected-flag {
+    /*border-right: none !important;*/
+    padding: 4px !important;
+}
+#name  {
+    border-width: 2px !important;
+}
+ .ant-modal .ant-modal-footer {
+    display: none !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-modal .ant-modal-content {
+    padding: 0 !important;
+    /*border: 2px solid red !important;*/
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-modal-root .ant-modal-mask {
+    /*background: unset !important;*/
+}
+.p-\[44px\] {
+    padding: 0 !important;
 }
