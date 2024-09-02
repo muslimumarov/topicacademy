@@ -141,8 +141,8 @@ function Kurs() {
                     </div>
                     <p className="text-left mb-[20px] text-sm max-w-[190px] sm:w-[300px] md:w-[215px] lg:w-[215px] xl:w-[280px] text-[15px]  text-gray-600 ">{t("kurs2-desc")}</p>
                     <div className="mt-6 w-full flex items-center justify-between">
-                        <button   onClick={showModal}
-                            className="  py-2 px-3.5 xl:py-[12px]  xl:px-[50px]  sm:ml-[30px] md:ml-[3px]  sm:pr-[20px] sm:pl-[25px]   text-center  bg-green-500 text-[9px] text-white  font-semibold rounded-full hover:bg-gr-300 transition duration-300">
+                        <button onClick={showModal}
+                                className="  py-2 px-3.5 xl:py-[12px]  xl:px-[50px]  sm:ml-[30px] md:ml-[3px]  sm:pr-[20px] sm:pl-[25px]   text-center  bg-green-500 text-[9px] text-white  font-semibold rounded-full hover:bg-gr-300 transition duration-300">
                             {t("kurs1-endbutton")}
                         </button>
                         <Modal width={700} className=" ant-modal-title p-[44px] bg-transparent modal-modal"
@@ -218,7 +218,7 @@ function Kurs() {
                                open={isModalOpen}
                                onOk={handleOk} onCancel={handleCancel}
 
-                                                >
+                        >
                             <h1 className="foryou-form-title text-white">O'z ma'lumotlaringizni qoldiring</h1>
                             <span className="foryou-form-span text-white">Sizga to'liqroq ma'lumot berish uchun mutaxassislarimiz siz bilan bog'lanishadi
             </span>

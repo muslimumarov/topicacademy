@@ -33,6 +33,7 @@
   "succes-text": "The TOPIK academy consulting team will assist you closely in choosing a university, obtaining a visa, and winning grants",
   "succes-desc":  "Sign up for a free consultation to get more information!",
   "succes-button": "Submit an application",
+  "topic-title": "Why specifically TOPIK Academy?",
   "kurs-title": "Sign up for a course that suits you",
   "kurs1-span":"Intiensive",
   "kurs1-button": "Duration: 5 months",
@@ -59,8 +60,18 @@
 
   "title5": "Supporting Curators",
   "description5": "If you have difficulties with the course material, a curator will be available to assist you.",
-
   "title6": "Consulting Services",
-  "description6": "We assist our successful graduates with visa applications for studying in South Korea, university selection, and obtaining grants."
+  "description6": "We assist our successful graduates in obtaining a visa for studying in South Korea, choosing a university, and securing scholarships",
+  "titlefq": "Frequently Asked Questions",
+  "question1": "Do you provide study materials or do I need to find them myself?",
+  "answer1": "We provide all the study materials.",
+  "question2": "In what format are the lessons conducted?",
+  "answer2": "Lessons are conducted online and in video format.",
+  "question3": "How do I register?",
+  "answer3": "You need to fill out the form on our website to register.",
+  "question4": "How is payment made?",
+  "answer4": "Payments are made online",
+  "questonttwo-title": "Do you have any questions left?",
+  "questonttwo-text": "Leave your information, and we will contact you to answer all your questions"
 }
 

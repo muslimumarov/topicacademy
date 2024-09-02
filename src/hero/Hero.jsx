@@ -8,7 +8,7 @@ function Hero () {
 
   return (
    <>
-     <div className="hero">
+     <div className="hero question-gradient">
      <span className="hero-span">{t("hero-span")}</span>
      <div className="hero-wrap">
      <h1 className="hero-title text-[54px]">{t("hero-title")}</h1>

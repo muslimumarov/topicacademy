@@ -1,172 +1,179 @@
-.grant {
+/*.grant {*/
 
-}
 
-.grant-wrap {
-    display: flex;
-    justify-content: space-between;
-}
-
-.grant-img {
-    max-width: 602px;
-    height: 500px;
-    margin-right: 46px;
-}
-
-.grant-activ-title {
-    margin: 0 auto;
-    margin-bottom: 108px;
-}
-
-.grant-title, .grant-innertitle {
-    font-size: 22px;
-    line-height: 1.55;
-    font-weight: 500;
-}
-
-.grant-list {
-    margin-left: 18px;
-
-}
-
-.grant-text, .grant-item {
-    font-size: 14px;
-    line-height: 1.55;
-}
-
-.gran-text {
-}
 
 .grant-item {
-    position: relative;
+    @apply relative pl-6; /* Dumaloq uchun joy qoldirish */
+
 }
 
-.grant-item:before {
+.grant-item::before {
     content: "";
     position: absolute;
-    display: inline-block;
-    top: 8px;
-    left: -16px;
-    width: 7px;
-    width: 7px;
-    height: 7px;
+    top: 9px; /* 8px ekvivalenti */
+    left:5px; /* 16px ekvivalenti */
+    width: 0.4375rem; /* 7px */
+    height: 0.4375rem; /* 7px */
     background-color: black;
-    border-radius: 100%;
+    border-radius: 9999px; /* To'liq yumaloq shakl */
 }
+
+/*}*/
+
+/*.grant-wrap {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.grant-img {*/
+/*    max-width: 602px;*/
+/*    height: 500px;*/
+/*    margin-right: 46px;*/
+/*}*/
+
+/*.grant-activ-title {*/
+/*    margin: 0 auto;*/
+/*    margin-bottom: 108px;*/
+/*}*/
+
+/*.grant-title, .grant-innertitle {*/
+/*    font-size: 22px;*/
+/*    line-height: 1.55;*/
+/*    font-weight: 500;*/
+/*}*/
+
+/*.grant-list {*/
+/*    margin-left: 18px;*/
+
+/*}*/
+
+/*.grant-text, .grant-item {*/
+/*    font-size: 14px;*/
+/*    line-height: 1.55;*/
+/*}*/
+
+/*.gran-text {*/
+/*}*/
+
+/*.grant-item {*/
+/*    position: relative;*/
+/*}*/
+
+
 
 /*Responsive*/
 
-@media (max-width: 1280px) {
-    .grant-innerWrap {
-        max-width: 1000px;
-    }
+/*@media (max-width: 1280px) {*/
+/*    .grant-innerWrap {*/
+/*        max-width: 1000px;*/
+/*    }*/
 
 
 
-    .grant-innerWrap {
-       max-width: 857px;
-    }
-  .grant-text {
-      max-width: 450px;
-  }
-    .grant-activ-endwrap {
-        max-width: 500px;
-    }
+/*    .grant-innerWrap {*/
+/*       max-width: 857px;*/
+/*    }*/
+/*  .grant-text {*/
+/*      max-width: 450px;*/
+/*  }*/
+/*    .grant-activ-endwrap {*/
+/*        max-width: 500px;*/
+/*    }*/
 
-    .grant-img {
-        max-width: 402px;
-        height: 300px;
-        margin-right: 46px;
-    }
-}
-@media (max-width: 1200px) {
-    .grant-innerWrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+/*    .grant-img {*/
+/*        max-width: 402px;*/
+/*        height: 300px;*/
+/*        margin-right: 46px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 1200px) {*/
+/*    .grant-innerWrap {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*    }*/
 
-    .grant-activ-endwrap {
-        margin-right: 75px;
-        margin-left: 55px;
-        margin-bottom: 50px;
-    }
+/*    .grant-activ-endwrap {*/
+/*        margin-right: 75px;*/
+/*        margin-left: 55px;*/
+/*        margin-bottom: 50px;*/
+/*    }*/
 
-    .grant-title {
-        max-width: 350px;
-    }
+/*    .grant-title {*/
+/*        max-width: 350px;*/
+/*    }*/
 
-    .grant-text {
-        max-width: 350px;
-    }
-}
-@media (max-width: 1024px) {
-    .grant-wrap {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+/*    .grant-text {*/
+/*        max-width: 350px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 1024px) {*/
+/*    .grant-wrap {*/
+/*        flex-wrap: wrap;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
 
-    .grant-img {
-        margin-bottom: 64px;
-    }
+/*    .grant-img {*/
+/*        margin-bottom: 64px;*/
+/*    }*/
 
-    .grant-innertitle {
-        margin-left: 45px;
-    }
+/*    .grant-innertitle {*/
+/*        margin-left: 45px;*/
+/*    }*/
 
-    .grant-innerWrap {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .grant-activ-topwrap {
-        margin-right: 65px;
-    }
-    .grant-activ-endwrap {
-        margin-left: 70px;
-        max-width: 405px;
-    }
-}
-@media (max-width: 680px) {
-.grant-img {
-    max-width: 500px;
-    height: 400px;
-}
+/*    .grant-innerWrap {*/
+/*        flex-wrap: wrap;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
+/*    .grant-activ-topwrap {*/
+/*        margin-right: 65px;*/
+/*    }*/
+/*    .grant-activ-endwrap {*/
+/*        margin-left: 70px;*/
+/*        max-width: 405px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 680px) {*/
+/*.grant-img {*/
+/*    max-width: 500px;*/
+/*    height: 400px;*/
+/*}*/
 
-}
-@media (max-width: 680px) {
-    .grant-img {
-        max-width: 450px;
-        height: 400px;
-    }
-}
-@media (max-width: 468px) {
-    .grant-activ-topwrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
-    .grant-img {
-        max-width: 350px;
-        height: 300px;
-    }
+/*}*/
+/*@media (max-width: 680px) {*/
+/*    .grant-img {*/
+/*        max-width: 450px;*/
+/*        height: 400px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 468px) {*/
+/*    .grant-activ-topwrap {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    .grant-img {*/
+/*        max-width: 350px;*/
+/*        height: 300px;*/
+/*    }*/
 
-}
-@media (max-width: 400px) {
-    .grant-activ-topwrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+/*}*/
+/*@media (max-width: 400px) {*/
+/*    .grant-activ-topwrap {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*    }*/
 
-    .grant-activ-endwrap {
-        margin-left: 15px;
-    }
-    .grant-item:before {
-       display: none;
-    }
-}
+/*    .grant-activ-endwrap {*/
+/*        margin-left: 15px;*/
+/*    }*/
+/*    .grant-item:before {*/
+/*       display: none;*/
+/*    }*/
+/*}*/
 
