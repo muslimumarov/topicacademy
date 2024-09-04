@@ -6,6 +6,10 @@ module.exports = {
            " sans": ["Poppins", 'sans-serif'],
         },
         extend: {
+            colors: {
+                customGreen: '#BFF1C5', // Rang nomini o'zingiz xohlagandek nomlang
+                customTeal: '#64ADAA',
+            },
             backgroundImage: {
                 'question-gradient': 'background: -webkit-linear-gradient(45deg, rgb(166, 224, 223), rgb(214, 247, 248) 54%, rgb(235, 255, 251) 86%);\n' + 'background: -moz-linear-gradient(45deg, rgb(166, 224, 223), rgb(214, 247, 248) 54%, rgb(235, 255, 251) 86%);\n' + 'background: linear-gradient(45deg, rgb(166, 224, 223), rgb(214, 247, 248) 54%, rgb(235, 255, 251) 86%)',
             }, backgroundColor: {

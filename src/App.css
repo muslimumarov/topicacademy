@@ -8,7 +8,11 @@
     padding: 0 20px;
     margin: 0 auto;
 }
-
+.App-container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
 /*// topic section /*/
 .topic-inner-wrap {
     height: 250px !important;
@@ -65,5 +69,9 @@
     fill: #5FACA9 !important;
 
 }
+@media (min-width: 640px) and (max-width: 768px) {
+    .text-white:not(last-child) {
+        margin-bottom: 10px !important;
+    }
 
-
+}

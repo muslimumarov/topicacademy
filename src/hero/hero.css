@@ -105,8 +105,7 @@
     top: 100px;
   }
   .hero-endspan {
-    position: relative;
-    top: 120px;
+    display: none;
   }
   .ant-flex {
     /*margin: 0;*/
@@ -119,9 +118,12 @@
 }
 @media (max-width: 650px)  {
   .hero {
-    background-position: calc(50% + 93px) calc(44% - -50px);
+    background-position: calc(50% + 93px) calc(44% - -100px);
+    background-size: 790px 610px;
   }
-
+  .foryou-title {
+    margin-top: 200px !important;
+  }
   .hero-title {
     font-size: 20px;
   }
@@ -132,30 +134,24 @@
     display: none;
   }
   .hero-textone {
-    position: relative;
-    bottom: 20px;
+   display: none;
   }
   .hero-texttwo {
-    position: relative;
-    top: 40px;
-    left: 20px;
+   display: none;
   }
 
   .hero-button {
     position: relative;
-    top: 134px;
+    top: 67px;
     left: 20px;
   }
   .hero-endspan {
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 20px;
+    display: none;
   }
 }
 @media (max-width: 588px)  {
   .hero-title {
-    font-size: 32px;
+  font-size: 30px !important;
   }
   .hero-span {
     margin-left: 29px;
@@ -163,6 +159,11 @@
   .hero-span::before {
     display: none;
   }
+  .foryou-title {
+    font-size: 25px !important;
+    margin-top: 0 !important;
+  }
+
   .hero-textone {
     position: relative;
     top: 33px;
@@ -206,6 +207,12 @@
     top: 155px;
     left: 20px;
   }
+  .foryou-title {
+    margin-top: 22px ;
+    text-align: center;
+    margin-top: 1px !important;
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 394px)  {
   .hero-span {
@@ -223,6 +230,7 @@
     bottom: 20px;
 
   }
+
   .hero-texttwo {
     position: relative;
     top: 52px;

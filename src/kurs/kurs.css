@@ -3,7 +3,9 @@
     background-color: unset !important;
     backdrop-filter: blur(10px) !important;
 }
-
+.ant-modal-header{
+    display: none !important;
+}
 .form-control {
     display: block !important;
 }
