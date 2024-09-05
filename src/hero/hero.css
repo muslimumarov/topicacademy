@@ -115,17 +115,17 @@
   .hero {
     background-position: calc(50% + 111px) calc(44% - -33px);
   }
+
 }
 @media (max-width: 650px)  {
   .hero {
     background-position: calc(50% + 93px) calc(44% - -100px);
     background-size: 790px 610px;
   }
-  .foryou-title {
-    margin-top: 200px !important;
-  }
+
   .hero-title {
     font-size: 20px;
+    margin-top: 0  !important;
   }
   .hero-span {
     margin-left: 29px;
@@ -188,8 +188,9 @@
 }
 @media (max-width: 450px) {
   .hero-title {
-    font-size: 22px!important;
+    /*font-size: 22px !important;*/
     align-items: center;
+    font-weight: 500 !important;
   }
   .hero-texttwo {
     position: relative;
@@ -198,28 +199,28 @@
   }
   .hero-button {
     position: relative;
-    top: 135px;
+    top: 126px;
     left: 20px;
   }
   .hero-endspan {
-    text-align: center;
-    position: relative;
-    top: 155px;
-    left: 20px;
+ display: none  !important;
   }
   .foryou-title {
-    margin-top: 22px ;
     text-align: center;
-    margin-top: 1px !important;
     font-size: 20px !important;
+    /*background-color: #090808;*/
+  }
+  .hero-span {
+    /*display: none;*/
   }
 }
-@media (max-width: 394px)  {
+@media (max-width: 400px)  {
   .hero-span {
-    text-align: center;
+    display: none !important;
   }
   .hero-title {
-    text-align: center;
+    position: relative;
+    top: 115px;
     margin-left: 18px;
     font-size: 22px !important;
     font-weight: 400  ;
@@ -230,15 +231,15 @@
     bottom: 20px;
 
   }
-
+.grant-title {
+  position: relative;
+  top: -75px;
+  text-align: center;
+  font-weight: 500  ;
+  font-size: 20px !important;
+}
   .hero-texttwo {
-    position: relative;
-    top: 52px;
-    left: 200px;
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    flex-direction: column;
+  display:  none;
   }
 
   .hero-endspan {
@@ -247,5 +248,11 @@
     right: 55px;
     display: flex;
     font-size: 24px;
+  }
+  .foryou-title {
+    margin-top: 52px !important;
+    /*background-color: red;*/
+    font-size: 17px !important;
+
   }
 }

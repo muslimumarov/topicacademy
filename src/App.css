@@ -8,11 +8,7 @@
     padding: 0 20px;
     margin: 0 auto;
 }
-.App-container {
-    max-width: 1400px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
+
 /*// topic section /*/
 .topic-inner-wrap {
     height: 250px !important;
@@ -23,6 +19,7 @@
         font-size: 22px !important;
 
     }
+
 
     .hero-endspan {
         font-size: 20px !important;
@@ -67,7 +64,6 @@
 
 .anticon > svg path:nth-of-type(2) {
     fill: #5FACA9 !important;
-
 }
 @media (min-width: 640px) and (max-width: 768px) {
     .text-white:not(last-child) {
@@ -75,3 +71,4 @@
     }
 
 }
+

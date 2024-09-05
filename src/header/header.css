@@ -19,6 +19,7 @@
     line-height: 15.28px;
     font-weight: 400;
 }
+
 .navbar-list {
     margin-left: 35px;
     padding-left: 0;
@@ -55,10 +56,7 @@
 .navbar-responsiv {
     display: none;
 }
-.translate {
-    position: fixed;
-    right: 194px;
-}
+
 /*Responsive */
 @media (max-width: 1535px) {
     .header-wrapper {
@@ -368,8 +366,7 @@
 }
 @media (max-width: 668px) {
     .header-span {
-        position: absolute;
-        left: 150px;
+        display: none;
     }
     .navbar-responsiv {
           position: absolute;

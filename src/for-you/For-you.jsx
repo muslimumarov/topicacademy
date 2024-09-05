@@ -55,7 +55,7 @@ function ForYou() {
     };
 
     return (<div className="foryou">
-        <h2 className="foryou-title">{t('fortitle')}</h2>
+        <h2 className="foryou-title md:mb-[60px]" >{t('fortitle')}</h2>
         <ul className="foryou-list">
             <li className="foryou-list-item">
                 <img src={ForYouone} className="foryou-img" alt="testing img"/>

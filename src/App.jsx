@@ -26,8 +26,9 @@ function App() {
                 <TopicAcademy/>
                 <FaqAccordion/>
                 <QuestionTwood/>
+                <Footer/>
+
             </div>
-            <Footer/>
 
         </div>
     );

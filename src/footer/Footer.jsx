@@ -8,10 +8,9 @@ import {useTranslation} from "react-i18next";
 
 function Footer() {
     const {t, i18n} = useTranslation();
-    return (<div className="footer  xxl:w-[1640px] py-[45px] bg-[#333333]
-    px-[42.5px] rounded-[17px]   mt-[124px]">
-        <div className=" grid place-items-center  grid-cols-2  sm:grid-cols-3
-        lg:grid-cols-3 cm:gap-[240px]">
+    return (<div className="footer sm:w-[640px] md:w-[768px] lg:w-[968px]  xl:w-[1200px] bg-gray-950  rounded-[17px]
+             mobile:w-[340px]   mt-[124px]">
+        <div className=" grid place-items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 cm:gap-[240px]">
             <a href="#" className="footer-logo">
                 <img src={ImgFooter} alt="footer logo" className="footer-img-logo"/>
             </a>

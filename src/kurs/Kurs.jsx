@@ -66,7 +66,7 @@ function Kurs() {
                     <div className="kurs-wrapt mb-[25px] flex  ">
                         <h3 className=" max-w-[400px] mx-auto pl-0 ml-0 sm:ml-[30px] lg:text-[22px] text-[26px] md:ml-[3px] font-semibold text-gray-900 ">{t("kurs1-span")}</h3>
                         <button
-                            className="bg-green-900 mobile:text-[14px]   mobile:pl-[20px] mobile:pr-[20px]   sm:mr-[50px] md:mr-[3px]  sm:pt-[1px] sm:pl-[13px]  sm:pr-[13px] sm:pb-[1px] sm:text-[10px]  sm:w-[135px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
+                            className="bg-green-900 mobile:text-[10px] mobile:w-[115px]   mobile:pl-[10px] mobile:pr-[25px]   sm:mr-[50px] md:mr-[3px]  sm:pt-[1px] sm:pl-[13px]  sm:pr-[13px] sm:pb-[1px] sm:text-[10px]   sm:w-[135px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
                             {t("kurs1-button")}
                         </button>
                     </div>
@@ -135,7 +135,7 @@ function Kurs() {
                     <div className="kurs-wrapt mb-[25px] flex  ">
                         <h3 className=" max-w-[400px] mx-auto pl-0 ml-0 lg:text-[22px] text-[26px] font-semibold text-gray-900 ">{t("kurs2-span")}</h3>
                         <button
-                            className="bg-green-900 mobile:text-[14px]   mobile:pl-[20px] mobile:pr-[20px]  sm:pt-[1px] sm:pb-[1px] sm:text-[10px]  sm:w-[120px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
+                            className="bg-green-900 mobile:text-[10px] mobile:w-[115px]   mobile:pl-[10px] mobile:pr-[25px]  sm:pt-[1px] sm:pb-[1px] sm:text-[10px]  sm:w-[120px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
                             {t("kurs1-button")}
                         </button>
                     </div>
@@ -203,7 +203,7 @@ function Kurs() {
                     <div className="kurs-wrapt mb-[25px] flex  ">
                         <h3 className=" max-w-[400px] mx-auto pl-0 ml-0 lg:text-[22px] text-[26px] font-semibold text-gray-900 ">{t("kurs3-span")}</h3>
                         <button
-                            className="bg-green-900 mobile:text-[14px]  mobile:pl-[20px] mobile:pr-[20px]  sm:pt-[1px] sm:pb-[1px] sm:text-[10px]  sm:w-[120px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
+                            className="bg-green-900 mobile:text-[10px] mobile:w-[115px]   mobile:pl-[10px] mobile:pr-[25px]  sm:pt-[1px] sm:pb-[1px] sm:text-[10px]  sm:w-[120px] md:w-[140px]      text-center   text-white font-semibold rounded-full  transition duration-300  ">
                             {t("kurs1-button")}
                         </button>
                     </div>

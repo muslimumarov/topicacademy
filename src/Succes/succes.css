@@ -27,7 +27,7 @@
 .succes-innershadow {
     position: relative;
     width: 530px;
-    height: 426px;
+    /*height: 426px;*/
     -webkit-box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);
     -moz-box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);
     box-shadow: 37px 10px 41px 16px rgb(255, 255, 255);

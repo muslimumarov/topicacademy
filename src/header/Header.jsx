@@ -13,7 +13,7 @@ function Header() {
             <a href="#">
                 <img className='header-img-logo rounded-md'   src={Logo} alt="topic logo"/>
             </a>
-            <div className="header-innerWrapper flex mt-3 items-center ">
+            <div className="header-innerWrapper position-relative flex mt-3 items-center ">
                 <span  className="header-span">{t("logo-text")}</span>
                 <nav className="header-nav navbar">
                     <ul className="navbar-list">
@@ -26,7 +26,7 @@ function Header() {
                 <a href="+998 (33) 306 0098" className="header-contact"><span className='contact-span font-semibold'>+998 (33) 306 0098</span>
                     {t("Hoziroq bog'\nlaning")}</a>
                 <NavbarResponsiv />
-                <Translate/>
+                  <Translate/>
             </div>
 
         </div>

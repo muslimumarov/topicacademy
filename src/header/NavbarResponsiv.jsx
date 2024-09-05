@@ -56,7 +56,7 @@ const NavbarResponsiv = () => {
     };
 
     return (
-        <div className="navbar-responsiv">
+        <div className="navbar-responsiv cm: block lg:hidden dm:hidden z-50 sm:block mobile:hidden">
             <Menu
                 onClick={onClick}
                 style={{
